@@ -28,7 +28,7 @@ local function add_simple_flower(name, desc, box, f_groups)
 		}
 	})
 	if minetest.get_modpath("lucky_block") then
-		luck_block:add_blocks({ {"dro", {"flowers2:"..name}, 5} })
+		lucky_block:add_blocks({ {"dro", {"flowers2:"..name}, 5} })
 	end
 end
 
