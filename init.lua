@@ -38,6 +38,44 @@ local flowers = {
 	{"forest_columbine", "Wild Columbine", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_red = 1}},
 	{"grass_prairie", "Prairie Grass", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
 	{"grass_cord", "Cord Grass", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_green = 1}},
+	{"wetlands_pickerel", "Pickerel Weed", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_violet = 1}},
+	{"shrub_spicebush", "Spicebush Shrub", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
+	{"flower_daisy", "White Daisy", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
+	{"flower_jacobsladder", "Jacob's Ladder", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_violet = 1}},
+	{"savanna_propeller", "Propeller Plant", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_red = 1}},
+	{"flower_wildcarrot", "Wild Carrot", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
+	{"cactus_baseball", "Cactus (Baseball Bat)", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_dark_green = 1}},
+	{"rainforest_devil", "Devil's Tongue", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_pink = 1}},
+	{"wetlands_turtle", "White Turtlehead", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
+	{"desert_kangaroo", "Kangaroo Paw", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_red = 1}},
+	{"mountain_bistort", "Bistort", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_pink = 1}},
+	{"mushroom_powderpuff", "Black Powderpuff Mushroom", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_grey = 1}},
+	{"flower_bluerose", "Blue Rose", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_blue = 1}},
+	{"flower_yellowrose", "Yellow Rose", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"mountain_willowherb", "Willowherb", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
+	{"forest_nettle", "Dead Nettle", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"cactus_matucana", "Cactus (Matucana Aureiflora)", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"mountain_armeria", "Alpine Armeria", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_violet = 1}},
+	{"mushroom_chanterelle", "Chanterelle Mushroom", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"savanna_marcela", "Marcela", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_dark_green = 1}},
+	{"desert_ocotillo", "Ocotillo", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_dark_green = 1}},
+	{"desert_whitesage", "White Sage", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_grey = 1}},
+	{"mountain_bellflower", "Alpine Bellflower", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_violet = 1}},
+	{"flower_celosia", "Pink Celosia", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_pink = 1}},
+	{"wheatgrass", "Blue Wheatgrass", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_cyan = 1}},
+	{"shrub_kerria", "Japanese Kerria Shrub", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"cactus_golden", "Cactus (Golden Cereus)", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_dark_grey = 1}},
+	{"desert_brittle", "Brittle Bush", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"forest_wildmint", "Wild Mint", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
+	{"mushroom_parasol", "Parasol Mushroom", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_brown = 1}},
+	{"wetlands_cattails", "Cattails", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_brown = 1}},
+	{"cactus_echinocereus", "Cactus (Echinocereus Metornii)", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_pink = 1}},
+	{"rainforest_lollipop", "Lollipop Plant", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_yellow = 1}},
+	{"rainforest_guzmania", "Cone Headed Guzmania", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
+	{"mushroom_woolly", "Woolly Gomphus Mushroom", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
+	{"forest_helleborine", "Red Helleborine", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_magenta = 1}},
+	-- {"spooky_baneberry", "White Baneberry", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
+	-- {"spooky_thornbush", "Thorn Bush", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_black = 1}},
 }
 
 for _,item in pairs(flowers) do
@@ -72,6 +110,17 @@ minetest.register_decoration({
 	decoration = {
 		"flowers2:desert_kangaroo", "flowers2:desert_brittle",
 		"flowers2:desert_ocotillo", "flowers2:desert_whitesage"
+	}
+})
+
+minetest.register_decoration({
+	deco_type = "simple",
+	place_on = {"default:sand", "default:dry_dirt_with_dry_grass"},
+	sidelen = 16,
+	fill_ratio = 0.005,
+	biomes = {"savanna", "savanna_ocean", "savanna_shore"},
+	decoration = {
+		"flowers2:savanna_propeller", "flowers2:savanna_marcela",
 	}
 })
 
@@ -117,7 +166,21 @@ minetest.register_decoration({
 	biomes = {"prairie", "grassy", "grassytwo", "grove"},
 	decoration = {
 		"flowers2:flower_delphinium", "flowers2:flower_celosia",
-		"flowers2:flower_daisy", "flowers2:flower_bluerose"
+		"flowers2:flower_daisy", "flowers2:flower_bluerose", "flowers2:flower_yellowrose"
+	}
+})
+
+minetest.register_decoration({
+	deco_type = "simple",
+	place_on = {
+		"default:dirt_with_grass",
+	},
+	sidelen = 16,
+	fill_ratio = 0.005,
+	biomes = {"grassy", "grassytwo"},
+	decoration = {
+		"flowers2:forest_columbine", "flowers2:forest_nettle",
+		"flowers2:forest_wildmint", "flowers2:forest_helleborine"
 	}
 })
 
