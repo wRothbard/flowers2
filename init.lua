@@ -74,7 +74,7 @@ local flowers = {
 	{"rainforest_guzmania", "Cone Headed Guzmania", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
 	{"mushroom_woolly", "Woolly Gomphus Mushroom", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_orange = 1}},
 	{"forest_helleborine", "Red Helleborine", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_magenta = 1}},
-	-- {"spooky_baneberry", "White Baneberry", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
+	{"spooky_baneberry", "White Baneberry", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_white = 1}},
 	-- {"spooky_thornbush", "Thorn Bush", {-2 / 16, -0.5, -2 / 16, 2 / 16, 5 / 16, 2 / 16}, {color_black = 1}},
 }
 
