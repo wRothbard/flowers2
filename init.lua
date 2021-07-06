@@ -201,6 +201,19 @@ minetest.register_decoration({
 	decoration = {"flowers2:shrub_kerria", "flowers2:shrub_spicebush"}
 })
 
+minetest.register_decoration({
+	deco_type = "simple",
+	place_on = {
+		"ethereal:bamboo_dirt"
+	},
+	sidelen = 16,
+	fill_ratio = 0.005,
+	biomes = {
+		"sakura", "bamboo",
+	},
+	decoration = {"flowers2:shrub_kerria"}
+})
+
 --= Jungle Biome
 
 minetest.register_decoration({
